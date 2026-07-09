@@ -5,11 +5,10 @@ Repositório com exercícios e atividades práticas de Java desenvolvidos durant
 ## 📋 Sobre o repositório
 
 Este repositório reúne atividades resolvidas ao longo dos meus estudos de Java, organizadas em pastas individuais. O objetivo é documentar minha evolução no aprendizado da linguagem, servindo tanto como portfólio quanto como material de consulta.
-Se voce explorar o repositorio verá que os codigos estão em diferentes otimações, visto que estou em constante aprendisado e as atividades ainda são basicas e vão melhorando aos poucos.
-
+Os códigos foram desenvolvidos em diferentes momentos dos meus estudos. Por isso, é possível notar uma evolução gradual na organização, na otimização e na aplicação dos conceitos ao longo das atividades.
 ## 🛠️ Tecnologias utilizadas
 
-- **Java** (15/21) *eu aprendo na versão 15 mas tenho a 21 baixada.
+- **Java** (atividades desenvolvidas em Java 15)
 - **Visual Studio Code**
 - Extensão [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 
@@ -29,10 +28,17 @@ Cada atividade está organizada em sua própria pasta, contendo o(s) arquivo(s) 
 ```
 
 ## 📚 Conteúdo abordado
-
-- Lógica de programação (variáveis, estruturas condicionais, laços de repetição, vetores/arrays)
-- Programação Orientada a Objetos (classes, objetos, atributos, métodos, encapsulamento, herança, polimorfismo)
-
+- Variáveis e tipos de dados
+- Estruturas condicionais
+- Estruturas de repetição
+- Vetores (Arrays)
+- Métodos
+- Classes e Objetos
+- Encapsulamento
+- Associação
+- Herança
+- Polimorfismo
+- Sobrecarga de métodos
 
 ## ▶️ Como executar
 
@@ -62,4 +68,9 @@ Este projeto está sob a licença MIT. Sinta-se à vontade para utilizá-lo como
 
 ---
 
-Feito por **[Seu Nome]** 🚀
+## 👨‍💻 Autor
+
+Carlos Eduardo Venancio
+
+- GitHub: https://github.com/carloseduardovenancio5-creator
+- LinkedIn: https://www.linkedin.com/in/carlos-eduardo-venancio-0951b22aa
