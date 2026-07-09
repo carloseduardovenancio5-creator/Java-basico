@@ -1,0 +1,40 @@
+Desafio
+
+    Uma biblioteca deseja informatizar seu controle de empréstimos. Cada 
+livro possui título, autor e disponibilidade.
+
+    O sistema deve possuir uma classe para representar um livro e outra
+classe responsável por controlar os empréstimos.
+
+    Quando um usuário tentar pegar um livro emprestado, o sistema deve 
+verificar se ele está disponível. Caso esteja disponível, o livro deve
+ter seu status alterado para indisponível.
+
+    Da mesma forma, quando um livro for devolvido, sua disponibilidade 
+deve ser atualizada.
+
+    Implemente uma solução utilizando objetos e referências, passando 
+livros como parâmetros entre métodos de diferentes classes.
+
+Entrada
+
+    A primeira linha contém um número inteiro representando a quantidade
+de livros cadastrados.
+
+Nas próximas linhas são informados:
+
+Título do livro
+Autor
+
+Depois será informado o título de um livro para realizar o empréstimo.
+
+Saída
+
+Caso o livro esteja disponível:
+
+Empréstimo realizado
+Livro: titulo
+
+Caso contrário:
+
+Livro indisponível

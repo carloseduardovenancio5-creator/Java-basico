@@ -1,0 +1,18 @@
+Exercício 1 — Aluno e Notas (Associação + Array)
+
+Crie as classes:
+
+Aluno
+
+atributos: nome, idade
+método: mostrarDados()
+
+Nota
+
+atributos: valor, media
+
+Na classe principal:
+
+crie um array de objetos Nota com 3 notas
+associe as notas a um aluno
+mostre o nome do aluno sua idade e a sua media.

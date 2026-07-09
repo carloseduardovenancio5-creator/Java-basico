@@ -1,0 +1,68 @@
+    Sistema de Gerenciamento de Pedidos de uma Loja Virtual
+    Desafio
+    Você foi contratado para auxiliar no desenvolvimento 
+de um sistema de gerenciamento de pedidos de uma 
+loja virtual. A empresa precisa organizar melhor o 
+controle das compras realizadas pelos clientes, 
+armazenando informações dos clientes e dos produtos 
+adicionados aos pedidos.
+    O sistema deve ser desenvolvido utilizando programação
+orientada a objetos, mantendo uma boa organização entre
+as responsabilidades das classes.
+    Cada cliente deve ser representado por uma classe própria, 
+contendo informações como nome e código de identificação. 
+Esses atributos devem possuir controle de acesso adequado,
+não permitindo alterações diretas fora da classe. A classe 
+deve disponibilizar métodos para acessar e modificar esses 
+dados quando necessário.
+    Cada produto também deve ser representado por uma classe, 
+contendo informações como nome, preço e quantidade disponível.
+A criação de um produto deve obrigatoriamente receber os dados 
+necessários através de um construtor.
+    A classe responsável pelo pedido deve armazenar vários produtos 
+utilizando um vetor de objetos. Ela deve permitir adicionar produtos, 
+calcular o valor total da compra e verificar se o pedido possui
+algum produto indisponível.
+    O sistema deve utilizar métodos com parâmetros e retorno para 
+realizar suas operações. Também deve existir sobrecarga de métodos
+para permitir diferentes formas de adicionar produtos ao pedido, como 
+adicionar apenas um produto ou adicionar um produto informando uma
+quantidade específica.
+    Durante o processamento do pedido, o sistema deve percorrer a 
+lista de produtos cadastrados, realizando verificações utilizando
+estruturas de repetição e condições para aplicar as regras de negócio.
+Ao final, o programa deve informar o valor total do pedido e a 
+situação da compra.
+
+                    Entrada
+    A primeira linha contém um número inteiro representando a quantidade
+de produtos cadastrados no sistema.
+Nas próximas linhas serão informados os dados de cada produto:
+•	Nome do produto
+•	Preço do produto
+•	Quantidade disponível em estoque
+
+    Depois será informado o nome do cliente responsável pelo pedido.
+A próxima linha contém a quantidade de produtos adicionados ao pedido.
+Para cada produto adicionado:
+•	Nome do produto
+•	Quantidade desejada
+
+                    Saída
+    Uma linha contendo o nome do cliente e o valor total do pedido, 
+separados por um espaço.
+    Outra linha informando a situação do pedido:
+    Caso todos os produtos estejam disponíveis:
+            Pedido aprovado
+    Caso algum produto não tenha estoque suficiente:
+            Pedido pendente
+    Além disso, deve ser exibida a quantidade de produtos adicionados ao pedido.
+________________________________________
+Esse exercício exige a criação de algo próximo de:
+•	Cliente → encapsulamento + getters/setters
+•	Produto → construtor + atributos privados
+•	Pedido → vetor de objetos + regras + sobrecarga
+•	Sistema → manipulação de referências e controle do fluxo
+Ele cobre todos os tópicos da lista.
+
+

@@ -1,0 +1,76 @@
+Sistema de Controle de Animais de um Pet Shop
+
+Desafio
+
+Você foi contratado para desenvolver um sistema simples para ajudar um pet shop a cadastrar e atender animais que chegam para banho e tosa.
+
+Objetivo
+- O estabelecimento atende diferentes tipos de animais, como cães e gatos.
+- Todos os animais possuem informações em comum: código de identificação, nome, idade e peso.
+- Cada tipo de animal pode ter características próprias para uso futuro.
+
+Estrutura do sistema
+- Cada animal deve ter um código de identificação fixo, definido na criação.
+- As demais informações devem ter acesso controlado, com leitura e alteração por métodos.
+- O pet shop também precisa cadastrar os funcionários responsáveis pelos atendimentos.
+
+Regras de atendimento
+- Os atendimentos devem ser controlados por uma classe específica.
+- Essa classe deve armazenar todos os animais cadastrados em um vetor de objetos.
+- Ela deve localizar um animal pelo código informado.
+- Se o animal existir e ainda não tiver sido atendido, seu status deve mudar para "Atendido".
+- Caso contrário, o atendimento não deve ser realizado.
+- Ao final, o programa deve informar quantos animais ainda aguardam atendimento.
+
+Requisitos de implementação
+
+- A solução deve ser organizada com Programação Orientada a Objetos.
+- O sistema deve ter classes com responsabilidades bem definidas:
+  - Animal
+  - Cachorro
+  - Gato
+  - Funcionário
+  - Gerenciamento de atendimentos
+- Durante a implementação, utilize, quando apropriado:
+  - encapsulamento com private e public
+  - atributos ou métodos final
+  - membros static
+  - construtores
+  - blocos de inicialização
+  - associação entre objetos
+  - herança
+  - métodos com parâmetros e retorno
+  - estruturas de repetição
+  - estruturas condicionais
+
+Entrada
+
+- Para cada animal, serão informados:
+
+  - tipo do animal (Cachorro ou Gato)
+  - código
+  - nome
+  - idade
+  - peso
+
+- Em seguida, serão informados:
+
+  - nome do funcionário
+  - código do funcionário
+
+- No momento do atendimento:
+  - código do animal que deverá ser atendido
+
+Saída
+
+- Se o atendimento for realizado com sucesso:
+
+  - Atendimento realizado
+  - Funcionário: <nome>
+  - Animal: <nome do animal>
+  - Aguardando atendimento: <quantidade>
+
+- Se o animal não for encontrado ou já tiver sido atendido:
+
+  - Atendimento não realizado
+  - Aguardando atendimento: <quantidade>

@@ -1,0 +1,23 @@
+Exercício 8 — Biblioteca com busca
+
+Crie:
+
+Livro
+
+nome
+ano
+
+Biblioteca
+
+array de livros
+
+Método:
+buscarLivro(String nome)
+
+Se existir:
+
+Livro encontrado
+
+Se não:
+
+Livro não encontrado
