@@ -1,4 +1,4 @@
-| Exercício | Conteúdos principais                                                                                                                                       |
+| Exercício | Conteúdos principais                                                                                                                                      |
 | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **1**     | Modelagem baseada em objetos, encapsulamento, associação entre classes, enumerações, construtores, métodos com parâmetros e retorno, lógica com `if/else`. |
 | **2**     | Coesão, encapsulamento, arrays de objetos, laços (`for`/`while`), métodos com retorno, modificadores de acesso, referências para objetos.                  |
