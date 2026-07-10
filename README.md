@@ -10,7 +10,6 @@ Os códigos foram desenvolvidos em diferentes momentos dos meus estudos. Por iss
 
 - **Java** (atividades desenvolvidas em Java 15)
 - **Visual Studio Code**
-- Extensão [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 
 ## 📁 Estrutura do repositório
 
