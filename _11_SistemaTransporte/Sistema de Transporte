@@ -1,0 +1,15 @@
+Uma empresa possui diferentes tipos de veículos utilizados em suas operações.
+
+Todos os veículos possuem marca, modelo e ano de fabricação, porém cada tipo de 
+veículo executa suas operações de maneira própria.
+
+Além disso, qualquer veículo da empresa pode ser ligado e desligado antes de 
+iniciar seu funcionamento.
+
+O sistema deverá:
+
+cadastrar diferentes veículos;
+exibir suas informações;
+registrar quando um veículo é ligado;
+registrar quando um veículo é desligado;
+registrar a forma como cada veículo realiza seu funcionamento.

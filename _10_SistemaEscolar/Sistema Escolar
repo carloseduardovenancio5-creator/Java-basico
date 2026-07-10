@@ -1,0 +1,10 @@
+Uma escola deseja cadastrar pessoas que fazem parte da instituição.
+
+Existem pessoas que estudam e pessoas que lecionam. Todas possuem nome, idade e CPF, porém cada uma possui informações específicas relacionadas à sua função.
+
+O sistema deverá:
+
+cadastrar alunos e professores;
+exibir os dados completos de cada cadastro;
+apresentar as informações de forma adequada para cada tipo de pessoa;
+impedir que o CPF seja alterado após o cadastro.

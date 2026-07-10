@@ -1,0 +1,11 @@
+Uma loja deseja controlar os produtos armazenados em seu estoque.
+
+Cada produto possui nome, código, preço e quantidade disponível.
+
+O sistema deve armazenar diversos produtos e permitir:
+
+cadastrar novos produtos;
+localizar um produto pelo código;
+atualizar a quantidade após uma venda;
+calcular o valor total do estoque;
+listar apenas os produtos cuja quantidade seja inferior a um valor informado pelo usuário.

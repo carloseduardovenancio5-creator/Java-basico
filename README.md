@@ -6,11 +6,11 @@ Repositório com exercícios e atividades práticas de Java desenvolvidos durant
 
 Este repositório reúne atividades resolvidas ao longo dos meus estudos de Java, organizadas em pastas individuais. O objetivo é documentar minha evolução no aprendizado da linguagem, servindo tanto como portfólio quanto como material de consulta.
 Os códigos foram desenvolvidos em diferentes momentos dos meus estudos. Por isso, é possível notar uma evolução gradual na organização, na otimização e na aplicação dos conceitos ao longo das atividades.
+Talvez voce encontre pastas somente com o enunciado do problema, essas atividades eu ainda vou realizar mas ja adicionei no projeto para nao me esquecer de faze-las.
 ## 🛠️ Tecnologias utilizadas
 
 - **Java** (atividades desenvolvidas em Java 15)
 - **Visual Studio Code**
-- Extensão [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 
 ## 📁 Estrutura do repositório
 

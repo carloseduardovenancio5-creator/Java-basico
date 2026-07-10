@@ -1,0 +1,8 @@
+package java_atividades._08_SistemaLocadora.Dominio;
+
+public enum GeneroNew {
+    AÇÃO, AVENTURA, CINEMA_DE_ARTE, COMÉDIA, DANÇA, DOCUMENTÁRIO,
+    DOCUFICÇÃO, DRAMA, ESPIONAGEM, FAROESTE, FANTASIA, FICÇÃO_CIENTÍFICA,
+    POLICIAL, MISTÉRIO, MUSICAL, ROMANCE, TERROR;
+
+}
