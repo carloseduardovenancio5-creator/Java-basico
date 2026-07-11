@@ -1,4 +1,3 @@
-package java_atividades._03_Gerenciar_Pedidos.Testes;
 
 // Importa a classe Scanner para ler entrada do usuário.
 import java.util.Scanner;
