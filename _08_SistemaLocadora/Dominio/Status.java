@@ -1,6 +1,6 @@
 package java_atividades._08_SistemaLocadora.Dominio;
 
-public enum StatusNew {
+public enum Status {
 
     DISPONIVEL, ALUGADO;
 

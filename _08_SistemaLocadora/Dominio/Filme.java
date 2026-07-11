@@ -4,24 +4,24 @@ import java.util.Scanner;
 
 import javax.swing.JOptionPane;
 
-public class FilmeNew {
+public class Filme {
 
     Scanner input = new Scanner(System.in);
 
     private String titulo;
     private long codeId;
-    private GeneroNew genero;
-    private StatusNew status;
+    private Genero genero;
+    private Status status;
     private Cliente cliente;
 
-    public FilmeNew() {
+    public Filme() {
     }
 
-    public FilmeNew(String titulo, long codeId, GeneroNew genero) {
+    public Filme(String titulo, long codeId, Genero genero) {
         this.titulo = titulo;
         this.codeId = codeId;
         this.genero = genero;
-        this.status = StatusNew.DISPONIVEL;
+        this.status = Status.DISPONIVEL;
     }
 
     public void exibirDisponiveis() {
@@ -43,7 +43,7 @@ public class FilmeNew {
             System.out.println("Digite o genero do filme para cadastrar (MAIUSCULO e separado por '_')");
             String generoFilme = input.nextLine().trim().toUpperCase();
             try {
-                this.genero = GeneroNew.valueOf(generoFilme);
+                this.genero = Genero.valueOf(generoFilme);
                 generoValido = true;
             } catch (IllegalArgumentException e) {
                 System.out.println("Gênero inválido. Tente novamente.");
@@ -57,12 +57,12 @@ public class FilmeNew {
          * catch pega essa exceção e permite tratar o problema sem quebrar o programa.
          */
 
-        this.status = StatusNew.DISPONIVEL;
+        this.status = Status.DISPONIVEL;
     }
 
     public void alugarfilme() {
 
-        if (this.status.equals(StatusNew.ALUGADO)) {
+        if (this.status.equals(Status.ALUGADO)) {
             System.out.println("Filme já alugado");
             JOptionPane.showMessageDialog(null, "Filme já alugado");
             return;
@@ -78,9 +78,9 @@ public class FilmeNew {
 
     public void disponibilidade() {
 
-        if (status.equals(StatusNew.DISPONIVEL)) {
+        if (status.equals(Status.DISPONIVEL)) {
             System.out.println("Alterando disponibilidade do filme " + this.titulo);
-            this.status = StatusNew.ALUGADO;
+            this.status = Status.ALUGADO;
         }
     }
 
@@ -107,11 +107,11 @@ public class FilmeNew {
         this.codeId = codeId;
     }
 
-    public void setStatus(StatusNew status) {
+    public void setStatus(Status status) {
         this.status = status;
     }
 
-    public void setGenero(GeneroNew genero) {
+    public void setGenero(Genero genero) {
         this.genero = genero;
     }
 
@@ -127,11 +127,11 @@ public class FilmeNew {
         return codeId;
     }
 
-    public GeneroNew getGenero() {
+    public Genero getGenero() {
         return genero;
     }
 
-    public StatusNew getStatus() {
+    public Status getStatus() {
         return status;
     }
 

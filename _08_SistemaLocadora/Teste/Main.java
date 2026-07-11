@@ -3,27 +3,27 @@ package java_atividades._08_SistemaLocadora.Teste;
 
 import java.util.Scanner;
 
-import java_atividades._08_SistemaLocadora.Dominio.FilmeNew;
-import java_atividades._08_SistemaLocadora.Dominio.GeneroNew;
-import java_atividades._08_SistemaLocadora.Dominio.StatusNew;
+import java_atividades._08_SistemaLocadora.Dominio.Filme;
+import java_atividades._08_SistemaLocadora.Dominio.Genero;
+import java_atividades._08_SistemaLocadora.Dominio.Status;
 
 public class Main {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        FilmeNew[] filmes = new FilmeNew[10];
+        Filme[] filmes = new Filme[10];
 
-        filmes[0] = new FilmeNew("O Poderoso Chefão", 1, GeneroNew.DRAMA);
-        filmes[1] = new FilmeNew("Star Wars: Uma Nova Esperança", 2, GeneroNew.FICÇÃO_CIENTÍFICA);
-        filmes[2] = new FilmeNew("O Senhor dos Anéis: A Sociedade do Anel", 3, GeneroNew.AVENTURA);
-        filmes[3] = new FilmeNew("Pulp Fiction: Tempo de Violência", 4, GeneroNew.POLICIAL);
-        filmes[4] = new FilmeNew("A Origem", 5, GeneroNew.FICÇÃO_CIENTÍFICA);
-        filmes[5] = new FilmeNew("O Silêncio dos Inocentes", 6, GeneroNew.TERROR);
-        filmes[6] = new FilmeNew("Forrest Gump: O Contador de Histórias", 7, GeneroNew.DRAMA);
-        filmes[7] = new FilmeNew("Matrix", 8, GeneroNew.FICÇÃO_CIENTÍFICA);
-        filmes[8] = new FilmeNew("O Grande Lebowski", 9, GeneroNew.COMÉDIA);
-        filmes[9] = new FilmeNew();
+        filmes[0] = new Filme("O Poderoso Chefão", 1, Genero.DRAMA);
+        filmes[1] = new Filme("Star Wars: Uma Nova Esperança", 2, Genero.FICÇÃO_CIENTÍFICA);
+        filmes[2] = new Filme("O Senhor dos Anéis: A Sociedade do Anel", 3, Genero.AVENTURA);
+        filmes[3] = new Filme("Pulp Fiction: Tempo de Violência", 4, Genero.POLICIAL);
+        filmes[4] = new Filme("A Origem", 5, Genero.FICÇÃO_CIENTÍFICA);
+        filmes[5] = new Filme("O Silêncio dos Inocentes", 6, Genero.TERROR);
+        filmes[6] = new Filme("Forrest Gump: O Contador de Histórias", 7, Genero.DRAMA);
+        filmes[7] = new Filme("Matrix", 8, Genero.FICÇÃO_CIENTÍFICA);
+        filmes[8] = new Filme("O Grande Lebowski", 9, Genero.COMÉDIA);
+        filmes[9] = new Filme();
 
         filmes[9].cadastrarFilme();
 
@@ -48,8 +48,8 @@ public class Main {
 
                 System.out.println("--------------------------");
 
-                for (FilmeNew exibir : filmes) {
-                    if (exibir.getStatus() == StatusNew.DISPONIVEL) {
+                for (Filme exibir : filmes) {
+                    if (exibir.getStatus() == Status.DISPONIVEL) {
                         System.out.println(exibir.getTitulo());
                     }
                 }

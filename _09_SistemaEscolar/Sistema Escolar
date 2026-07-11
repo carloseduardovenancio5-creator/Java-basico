@@ -1,6 +1,8 @@
 Uma escola deseja cadastrar pessoas que fazem parte da instituição.
 
-Existem pessoas que estudam e pessoas que lecionam. Todas possuem nome, idade e CPF, porém cada uma possui informações específicas relacionadas à sua função.
+Existem pessoas que estudam e pessoas que lecionam. Todas possuem nome,
+idade e CPF, porém cada uma possui informações específicas relacionadas
+à sua função.
 
 O sistema deverá:
 
