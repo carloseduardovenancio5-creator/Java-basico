@@ -1,0 +1,31 @@
+Desafio
+
+Crie um sistema para gerenciar seminários, associando alunos, professores e seminários.
+
+Cada aluno deve ter nome e idade.
+Cada professor deve ter nome e especialidade.
+Cada seminário deve ter título e local.
+
+O sistema deve organizar a associação entre esses objetos, permitindo que:
+- um aluno participe de um seminário;
+- um professor possa ministrar vários seminários;
+- um seminário tenha vários alunos.
+
+A implementação deve utilizar conceitos de associação entre objetos e organização orientada a objetos.
+
+Entrada
+
+A primeira linha contém o nome do professor.
+A segunda linha contém a especialidade do professor.
+
+Em seguida, são informados os dados de cada seminário:
+- título do seminário
+- local do seminário
+
+Depois, são informados os dados dos alunos participantes:
+- nome do aluno
+- idade do aluno
+
+Saída
+
+O sistema deve exibir os detalhes do professor, dos seminários e dos alunos associados.

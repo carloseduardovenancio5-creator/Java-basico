@@ -1,0 +1,27 @@
+Desafio
+
+Receba notas de um aluno. Calcule a média aritmética.
+Se a média for maior ou igual ao valor estabelecido, exiba "Aprovado".
+Se for entre o valor estabelecido, exiba "Recuperação".
+Caso seja menor que o valor estabelecido, exiba "Reprovado".
+
+ADICIONAR A OPÇÃO DE PONDERADA E ARITMÉTICA E ADICIONAR SEUS MÉTODOS
+VERIFICAÇÕES
+SEPARAR COMO UM CÓDIGO ORGANIZADO
+
+Entrada
+
+A primeira linha contém um número inteiro representando a quantidade de notas a serem digitadas.
+
+Em seguida, serão informadas as notas do aluno.
+
+Também será informado o valor de corte para aprovação e recuperação.
+
+Saída
+
+A média do aluno.
+
+O status final:
+- Aprovado
+- Recuperação
+- Reprovado
