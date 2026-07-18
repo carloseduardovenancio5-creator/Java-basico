@@ -10,3 +10,4 @@
 | **08**     | Modelagem baseada em objetos, encapsulamento, associação entre classes, enumerações, construtores, métodos com parâmetros e retorno, lógica com `if/else`. |
 | **09**     | Herança, sobrescrita, modificador `final`, encapsulamento, construtores e associação entre classes.                                                        |
 | **10**     | Herança, interfaces, classes e métodos abstratos, sobrescrita, encapsulamento e organização em POO.                                                        |
+| **11**    | Modelagem baseada em objetos (coesão), Encapsulamento, Atributos, Métodos, Métodos com retorno, Arrays de objetos, Associação entre classes, Referências para objetos, Manipulação de objetos, for, if/else, Lógica de negócio |

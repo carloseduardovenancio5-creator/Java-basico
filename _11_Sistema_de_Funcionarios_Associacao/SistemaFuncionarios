@@ -1,0 +1,19 @@
+Exercício 10 — Sistema de Funcionários
+
+Crie:
+
+Funcionário
+
+nome
+salário
+
+Empresa
+
+nome
+array de funcionários
+
+Faça:
+
+cadastrar 5 funcionários
+calcular média salarial
+mostrar funcionários acima da média
