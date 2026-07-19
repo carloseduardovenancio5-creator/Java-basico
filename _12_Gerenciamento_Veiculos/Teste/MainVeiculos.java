@@ -1,8 +1,8 @@
-package java_atividades.Gerenciamento_Veiculos.Teste;
+package java_atividades._12_Gerenciamento_Veiculos.Teste;
 
 import java.util.Scanner;
 
-import java_atividades.Gerenciamento_Veiculos.Dominio.Veiculo;
+import java_atividades._12_Gerenciamento_Veiculos.Dominio.Veiculo;
 
 public class MainVeiculos {
     public static void main(String[] args) {

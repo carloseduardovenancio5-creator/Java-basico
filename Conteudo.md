@@ -11,3 +11,4 @@
 | **09**     | Herança, sobrescrita, modificador `final`, encapsulamento, construtores e associação entre classes.                                                        |
 | **10**     | Herança, interfaces, classes e métodos abstratos, sobrescrita, encapsulamento e organização em POO.                                                        |
 | **11**    | Modelagem baseada em objetos (coesão), Encapsulamento, Atributos, Métodos, Métodos com retorno, Arrays de objetos, Associação entre classes, Referências para objetos, Manipulação de objetos, for, if/else, Lógica de negócio |
+| **12**    | Modelagem baseada em objetos (coesão), Encapsulamento, Atributos, Métodos, Métodos com parâmetros, Métodos com retorno, Arrays de objetos, Referências para objetos, Associação entre classes, Manipulação de objetos, for, if/else, Lógica de negócio |

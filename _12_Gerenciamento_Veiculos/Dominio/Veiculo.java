@@ -1,4 +1,4 @@
-package java_atividades.Gerenciamento_Veiculos.Dominio;
+package java_atividades._12_Gerenciamento_Veiculos.Dominio;
 
 import java.util.Scanner;
 
